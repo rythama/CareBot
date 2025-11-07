@@ -1,0 +1,6 @@
+# LLM API integration
+openai>=1.0.0
+
+# Optional: for environment variable management
+python-dotenv>=1.0.0
+
