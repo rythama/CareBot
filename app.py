@@ -64,8 +64,11 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5001))
     
     # Run the app
-    # Set debug=False for production
+    # Note: use_reloader=False to avoid watchdog dependency issues
+    # Debug mode is still enabled for error traces, just without auto-reload
+    # Set debug=False and use_reloader=False for production
     print(f"\n🚀 Starting CareBot web application on http://localhost:{port}")
     print(f"   Open your browser to view the application\n")
-    app.run(host='0.0.0.0', port=port, debug=True)
+    print(f"   Note: Auto-reload disabled to avoid watchdog compatibility issues\n")
+    app.run(host='0.0.0.0', port=port, debug=True, use_reloader=False)
 
