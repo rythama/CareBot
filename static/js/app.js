@@ -1,5 +1,5 @@
-// Cognos Frontend Application
-class CognosApp {
+// CareBot Frontend Application
+class CareBotApp {
     constructor() {
         this.chatMessages = document.getElementById('chatMessages');
         this.userInput = document.getElementById('userInput');
@@ -239,7 +239,7 @@ function clearChat() {
         chatMessages.innerHTML = '';
         
         // Reload initial greeting
-        const app = window.cognosApp;
+        const app = window.careBotApp;
         if (app) {
             app.loadInitialGreeting();
             app.conversationStarted = false;
@@ -263,6 +263,6 @@ if (localStorage.getItem('disclaimerClosed') === 'true') {
 
 // Initialize app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    window.cognosApp = new CognosApp();
+    window.careBotApp = new CareBotApp();
 });
 

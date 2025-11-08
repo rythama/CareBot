@@ -1,6 +1,6 @@
-# Cognos Frontend - Web Application
+# CareBot Frontend - Web Application
 
-A modern, responsive web interface for the Cognos AI Primary Care Consultation System.
+A modern, responsive web interface for the CareBot AI Primary Care Consultation System.
 
 ## Features
 
@@ -15,7 +15,7 @@ A modern, responsive web interface for the Cognos AI Primary Care Consultation S
 ## Project Structure
 
 ```
-Cognos/
+CareBot/
 ├── app.py                 # Flask web application
 ├── templates/
 │   └── index.html        # Main HTML template
@@ -93,7 +93,7 @@ Health check endpoint.
 {
   "status": "healthy",
   "llm_enabled": true,
-  "service": "Cognos AI Primary Care Consultation"
+  "service": "CareBot AI Primary Care Consultation"
 }
 ```
 

@@ -2,23 +2,23 @@
 
 ## Understanding the Warnings
 
-The dependency warnings you're seeing are from existing packages in your environment (spyder, tensorflow), not from the Cognos application. These warnings won't prevent the Flask app from running, but they indicate potential conflicts.
+The dependency warnings you're seeing are from existing packages in your environment (spyder, tensorflow), not from the CareBot application. These warnings won't prevent the Flask app from running, but they indicate potential conflicts.
 
 ## Recommended Solution: Use a Virtual Environment
 
-Using a virtual environment isolates the Cognos dependencies from your other projects, preventing conflicts.
+Using a virtual environment isolates the CareBot dependencies from your other projects, preventing conflicts.
 
 ### Option 1: Using venv (Built-in Python)
 
 ```bash
 # Create a virtual environment
-python3 -m venv cognos_env
+python3 -m venv carebot_env
 
 # Activate it (macOS/Linux)
-source cognos_env/bin/activate
+source carebot_env/bin/activate
 
 # Activate it (Windows)
-cognos_env\Scripts\activate
+carebot_env\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -34,10 +34,10 @@ deactivate
 
 ```bash
 # Create a new conda environment
-conda create -n cognos python=3.9
+conda create -n carebot python=3.9
 
 # Activate it
-conda activate cognos
+conda activate carebot
 
 # Install dependencies
 pip install -r requirements.txt

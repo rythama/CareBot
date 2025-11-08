@@ -1,4 +1,4 @@
-# Cognos: AI Primary Care Consultation System
+# CareBot: AI Primary Care Consultation System
 
 An AI system designed to conduct primary care consultations, handling both routine mild symptoms and emergency scenarios with appropriate escalation protocols.
 

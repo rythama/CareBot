@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Flask web application for Cognos AI Primary Care Consultation System
+Flask web application for CareBot AI Primary Care Consultation System
 """
 
 from flask import Flask, render_template, request, jsonify
@@ -55,7 +55,7 @@ def health():
     return jsonify({
         'status': 'healthy',
         'llm_enabled': consultant.use_llm,
-        'service': 'Cognos AI Primary Care Consultation'
+        'service': 'CareBot AI Primary Care Consultation'
     })
 
 if __name__ == '__main__':
@@ -65,7 +65,7 @@ if __name__ == '__main__':
     
     # Run the app
     # Set debug=False for production
-    print(f"\n🚀 Starting Cognos web application on http://localhost:{port}")
+    print(f"\n🚀 Starting CareBot web application on http://localhost:{port}")
     print(f"   Open your browser to view the application\n")
     app.run(host='0.0.0.0', port=port, debug=True)
 

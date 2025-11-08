@@ -1,4 +1,4 @@
-# Quick Start Guide - Cognos Web Application
+# Quick Start Guide - CareBot Web Application
 
 ## 🚀 Getting Started in 3 Steps
 
@@ -27,7 +27,7 @@ Then open your browser to: **http://localhost:5000**
 
 ## 📱 What You'll See
 
-1. **Header**: Cognos logo and tagline
+1. **Header**: CareBot logo and tagline
 2. **Disclaimer Banner**: Important safety information (can be closed)
 3. **Chat Interface**: 
    - AI greeting message
