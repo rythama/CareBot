@@ -144,4 +144,4 @@ The system now supports LLM integration using OpenAI's API:
 - Self-care recommendations are symptom-specific
 - All interactions include appropriate safety disclaimers
 
-<img width="4534" height="4284" alt="CareBot-2025-11-09-042341" src="https://github.com/user-attachments/assets/db7accbf-1d74-4320-869b-17142ffa615a" />
+<img width="4534" height="4284" alt="CareBotUPDATED-2025-11-09-042811" src="https://github.com/user-attachments/assets/26e5a38c-0362-45c2-ac1d-a1de1a7305c0" />
